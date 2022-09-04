@@ -7,10 +7,6 @@
   --background-secondary: #2f303a;
 }
 
-.list {
-  list-style: none;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -19,9 +15,13 @@ body {
   color: var(--secondary-text-color);
   background-color: var(--background-primary);
 }
+
+.list {
+  list-style: none;
+}
 /* Header */
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -35,6 +35,7 @@ body {
 }
 
 .header-link {
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
@@ -46,9 +47,11 @@ body {
 }
 
 .contacts-link {
+  font-weight: 500;
   color: var(--secondary-text-color);
   text-decoration: none;
 }
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
@@ -105,25 +108,43 @@ body {
   color: var(--primary-text-color);
 }
 
-.team-section {
-  background-color: F5F4FA;
-}
-
-.title .p {
+.feature-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.team-section .team-list {
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.team-list > p {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.team-list {
   background-color: var(--background-primary);
 }
 
+/* Footer */
 .footer {
   background-color: var(--background-secondary);
 }
 
 .logo-footer {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -143,4 +164,33 @@ body {
 
 .address-list .address {
   color: var(--hero-text-color);
+}
+
+/* Portfolio */
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.button-filter:hover {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
