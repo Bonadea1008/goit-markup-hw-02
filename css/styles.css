@@ -153,7 +153,7 @@ body {
   text-decoration: none;
 }
 
-.address-list .list-item {
+.address-list .footer-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -164,6 +164,11 @@ body {
 
 .address-list .address {
   color: var(--hero-text-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
 }
 
 /* Portfolio */
