@@ -126,7 +126,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.team-list > p {
+.team-profession {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -169,6 +169,14 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 /* Portfolio */
