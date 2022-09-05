@@ -173,6 +173,7 @@ body {
 
 /* Portfolio */
 .button-filter {
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
